@@ -101,7 +101,7 @@ public class MovieManagerTest {
 
     @Test
     public void OverLimitInReverseOrder() {
-        MovieManager manager = new MovieManager();
+        MovieManager manager = new MovieManager(10);
 
         manager.add("Film 1");
         manager.add("Film 2");
